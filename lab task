@@ -1,0 +1,106 @@
+'''list= [1,2,3,4,5]
+print(list)
+list[2]=8
+print(list)
+list[1:4]=[23,24,25]
+print(list)
+list[-5]=-100
+print(list)'''
+
+'''
+list1=[12,14,15,16,17]
+i=list1*2
+print(i)'''
+'''
+list1=[12,14,15,16,17]
+list2= [1,2,3,4,5]
+i=list1+list2
+print(i)
+'''
+
+
+l=[]
+n=int(input("eneter the number of elements in list"))
+for i in range(0,n):
+  l.append(input("enter the items"))
+print("printing the list")
+for i in l:
+   print(i, end = " ")
+   #append
+print("enter new elements","")
+l.append(input())
+print("new list :")
+for i in l:
+   print(i," ")   
+   
+  #copy
+  
+print("return copy of list")
+a=l.copy()
+print(a)  
+
+#extend
+print("add elemts to end of list")
+l.extend(input())
+print("extend list")
+for i in l:
+    print(i," ")
+
+#insert
+print("insert values")
+l.insert(1,2)
+print(l)
+
+
+print("pop list")
+l.pop(0)
+print(l)
+
+print("remove list")
+l.remove(2)
+print(l)
+
+print("reverse list is")
+l.reverse()
+print(l)
+
+print("sorted list ius")
+l.sort()
+print(l)
+
+print("clear list is")
+l.clear()
+print(l)
+
+
+
+
+
+
+
+
+
+ sum = 0
+list1 = [11, 5, 17, 18, 23]
+
+for i in range(0, len(list1)):
+    sum = sum + list1[i]
+print("Sum of all elements in given list: ", sum)
+
+
+
+
+
+
+
+
+
+
+l=[]
+n=int(input("eneter the number of elements in list"))
+for i in range(0,n):
+  l.append(input("enter the items"))
+print("printing the list")
+for i in l:
+   print(i, end = " ")
+  
